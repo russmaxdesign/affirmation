@@ -1,0 +1,159 @@
+/* ---------------------
+Gobal styles
+----------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 45em;
+  margin: 0;
+  padding: 1em 2em 1.5em;
+  font-size: 1.125em;
+  line-height: 1.5;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
+}
+
+/* ---------------------
+Paragraphs
+----------------------*/
+
+p {
+  margin: 2em 0;
+}
+
+/* ---------------------
+Headings
+----------------------*/
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  color: #C03C0C;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
+}
+
+h1 code,
+h2 code,
+h3 code {
+  color: #C03C0C;
+}
+
+h1 {
+  margin: 0 0 .5em;
+  font-size: 2em;
+  line-height: 1.22222222222222;
+}
+
+h2 {
+  margin: 2em 0 0.642857142857143em;
+  font-size: 1.55555555555556em;
+  line-height: 1.21428571428571;
+}
+
+h3 {
+  margin: 1em 0 0.818181818181818em;
+  font-size: 1.22222222222222em;
+  line-height: 1.22727272727273;
+}
+
+/* ---------------------
+Links
+----------------------*/
+
+a:link,
+a:link code {
+  color: #0A7399;
+  background: transparent;
+}
+
+a:visited,
+a:visited code {
+  color: #086D91;
+  background: transparent;
+}
+
+a:hover,
+a:hover code {
+  color: #007700;
+  background: transparent;
+}
+
+a:focus,
+a:focus code {
+  color: #fff;
+  background: #000;
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #000;
+}
+
+a:active,
+a:active code {
+  color: #AA0000;
+  background: transparent;
+}
+
+
+/* ---------------------
+Pre and code
+----------------------*/
+
+pre {
+  font-size: 1em;
+  display: block;
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  margin: 1em 0 36px;
+  overflow: auto;
+}
+
+pre code {
+  line-height: 1.5;
+  color: #fff;
+}
+
+.button,
+button {
+  display: inline-block;
+  padding: 0.75em 1em;
+  border: 0;
+  background: blue;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 0.2em;
+  font-size: 1em;
+  line-height: 1;
+  font-family: helvetica, arial, sans-serif;
+  cursor: pointer;
+}
+
+.button:focus,
+button:focus {
+  background: #000;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #000;
+}
+
+.button:hover,
+button:hover {
+  background: green;
+  color: #fff;
+}
+
+.button:active,
+button:active {
+  background: red;
+  color: #fff;
+}
+
+#affirmation {
+  margin: 2em 0;
+  padding: 1em;
+  background: #EDEBEB;
+  font-size: 1.2em;
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Daily Affirmation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="styles.css" rel="stylesheet">
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const affirmations = [
+        "I believe in myself.",
+        "I work on my mindset to help me feel very positive.",
+        "I have what it takes to achieve my optimal weight.",
+        "I enjoy building very healthy habits into my life.",
+        "I believe in my ability to change my habits and create new, positive ones.",
+        "I am choosing progress over perfection.",
+        "My body is amazing, and it allows me to do so many things.",
+        "I now choose to take really good care of my body.",
+        "Life is beautiful and I enjoy life by staying fit and maintaining my ideal weight.",
+        "I love and care for my body.",
+        "I deserve to have a slim, healthy, attractive body.",
+        "I look and feel great.",
+        "I do what it takes to be healthy.",
+        "I am happily redefined success.",
+        "I am responsible for my health.",
+        "I love and appreciate my body.",
+        "I am patient with creating my better body.",
+        "I believe in my ability to love and accept myself for who I am.",
+        "I am strong and healthy.",
+        "I am peaceful and calm.",
+        "I am learning and using the mental, emotional, and spiritual skills for success. I am willing to change!",
+        "I am willing to create new thoughts about myself and my body.",
+        "I choose to embrace thoughts of confidence in my ability to make positive changes in my life.",
+        "I set myself free from all the guilt I carry around the food I chose in the past.",
+        "I am healing my mind and my body with positive thoughts.",
+        "I am developing more healthy eating habits all the time.",
+        "I am eating meals that contribute to my health and well-being.",
+        "I eat my meals slowly and mindfully now. I savour every bite.",
+        "I eat only when I am hungry.",
+        "I stop eating when I feel full.",
+        "I am nourishing my body with fresh whole foods.",
+        "I eat vegetables every day.",
+        "I properly chew all the food that I eat so that it gets digested properly.",
+        "I love the taste of healthy food.",
+        "I am in control of how much I eat.",
+        "I want to eat foods that make me look and feel good.",
+        "I have a strong urge to eat only healthy foods and let go of any processed foods.",
+        "I choose to exercise.",
+        "I exercise because it makes me feel good.",
+        "I really enjoy moving my body.",
+        "I love to exercise regularly.",
+        "I am enjoying exercising. It makes me feel really good.",
+        "I am becoming fitter and stronger everyday through exercise.",
+        "I love exercising daily and it helps me reach my ideal weight.",
+        "I am a physically active person and that helps me reach my ideal weight.",
+        "I am happily exercising every morning when I wake up so that I can reach the weight loss that I have been wanting.",
+        "I will be successful in losing weight.",
+        "I will reach and maintain my ideal weight.",
+        "Healthy weight loss is really easy for me now.",
+        "Losing weight comes naturally for me.",
+        "I am happily achieving my weight loss goals.",
+        "I am losing weight every day.",
+        "I now clearly see myself at my ideal weight.",
+        "I am getting slimmer every day.",
+        "I am committing myself to my weight loss programme by changing my eating habits from unhealthy to healthy.",
+        "Every day I am getting slimmer and healthier.",
+        "I celebrate my own power to make choices around food.",
+        "I deserve to be at my ideal weight.",
+        "It is safe for me to lose weight.",
+        "I maintain my body with optimal health.",
+        "I am closer and closer to my ideal weight with each and every day.",
+        "I can do this, I am doing this, my body is losing weight right now.",
+        "I am aware that my metabolism is working in my advantage by helping me in gaining my optimal weight.",
+        "I am attaining and maintaining my desired weight.",
+        "I enjoy life by staying fit and maintaining my ideal weight.",
+        "I am capable of achieving my weight loss goals, and I will not let anything stay in my way until then.",
+        "I accept my body exactly the way it is and I constantly work on improving it.",
+        "I believe in myself and my ability to succeed. I have hope and certainty about my future.",
+        "Everything I eat nourishes and strengthens my body and mind.",
+        "Making small changes is becoming easier. I enjoy the feeling of well-being these changes are giving me.",
+        "I don’t aim for perfection. I accept mistakes and learn from them.",
+        "I accept the past and know my future will be bright and happy.",
+        "I say no when I need to."
+      ];
+
+      document.getElementById('randomise').addEventListener('click', function() {
+        const randomAffirmation = affirmations[Math.floor(Math.random() * affirmations.length)];
+        document.getElementById('affirmation').innerText = randomAffirmation;
+      });
+    });
+  </script>
+</head>
+<body>
+
+<h1>Daily Affirmation</h1>
+
+<p><button id="randomise">Gimme an affirmation</button></p>
+
+<div id="affirmation">
+</div>
+
+</body>
+</html>
