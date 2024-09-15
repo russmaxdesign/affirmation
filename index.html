@@ -86,7 +86,9 @@
 
       document.getElementById('randomise').addEventListener('click', function() {
         const randomAffirmation = affirmations[Math.floor(Math.random() * affirmations.length)];
-        document.getElementById('affirmation').innerText = randomAffirmation;
+        const affirmationElement = document.getElementById('affirmation');
+        affirmationElement.innerText = randomAffirmation;
+        affirmationElement.focus(); // Move focus to #affirmation container
       });
     });
   </script>
@@ -97,7 +99,7 @@
 
 <p><button id="randomise">Gimme an affirmation</button></p>
 
-<div id="affirmation" aria-live="assertive">
+<div id="affirmation" tabindex="-1" role="status">
 </div>
 
 </body>
